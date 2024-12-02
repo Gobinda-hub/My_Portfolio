@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobinda</title>
+    <link rel="shortcut icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3d760dd0b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Java Developer</p>
+                <h1>Hi, I'm <span>Gobinda</span> <br>from Kendrapara, Odisha</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About section start -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>An enthusiastic student, who is a self starter and capable to use my Technical 
+                        skills for the betterment of the organisation. A Master Degree in Computer 
+                        Application has enhance my Proficiency in Developing Web Application.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-content" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML, CSS, Javascript, React JS, Bootstrap, AJAX, jQuery</li>
+                            <li><span>Backend</span><br>Java, Servlet, JSP, SpringBoot</li>
+                            <li><span>Database</span><br>MySQL, Oracle, Hibernate</li>
+                            <li><span>Leadership</span><br>Good Leadership & Interpersonal Skills</li>
+                            <li><span>Smart Worker</span><br>Working Smartly</li>
+                            <li><span>Project Management</span><br>Good Project Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Teacher at St. Joseph English Medium School, Arrunagar</li>
+                            <li><span>2021</span><br>Computer Teacher and Data Entry Operator at KISD, Arrunagar</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Current</span><br>MCA from USBM, Bhubaneswar</li>
+                            <li><span>2018</span><br>Bsc Chemistry from HNS College, Chandol</li>
+                            <li><span>2016</span><br>+2 Science from SSB College, Mahakalpara</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section close -->
+
+
+    <!-- Service section start -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Website redesigning, Customer website designing and web development, assistance
+                         with domain and web hosting, google business profile setup, building specific
+                          web pages, graphic and logo designing, etc.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Investigate workshop, business requirements, customer journey maps, design 
+                        information archetecture, wireframes, prototypes, visual design, usability 
+                        testing, design quality control, etc.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Update the look of an app align with current design trends, use market research 
+                        and user behavior insights, refine the design based on feedback from user, testing 
+                        to improve user experience, usability and functionality. </p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- Service section end -->
+
+
+
+   <!-- portfolio section start -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/social2.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world and also help you to
+                        find your dream job easily. Download it from the playstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/music3.webp" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Music can improve your mood and calm your nervous syatem, manage stress and anexity.
+                        Also help you fall asleep faster and feel more rested </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/shopping2.webp" >
+                <div class="layer">
+                    <h3>Online Shooping App</h3>
+                    <p>You can order anything that you want from home. Apps can use customer data to 
+                        suggest products and promotion based on their history.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- portfolio section end -->
+
+
+<!-- contact section start  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mgobinda204@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9938948872</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61550841212971"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/gobindamandal2352/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gobinda-mandal-357159292/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Gobinda-hub/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Portfolio/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="2ce53d29-89e4-4a82-8dce-3b653f92110b">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" id="msg" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" id="btn" onclick="send()">Submit</button>
+                </form>
+                <!-- <h3 id="hd"></h3> -->
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Welcome to Gobinda's World with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<!-- contact section end -->
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabName){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-content");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-content");
+    }
+</script>
+
+ <!-- script for open & close menu -->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+ <!-- script for send email-->
+<!-- <script src=" https://smtpjs.com/v3/smtp.js"></script> -->
+<script>
+    // function sendEmail(){
+    //     Email.send({
+    //         Host : "smtp.gmail.com",
+    //         Username : "mgobinda204@gmail.com",
+    //         Password : "Gobinda@3136",
+    //         To : 'mgobinda204@gmail.com',
+    //         From :document.getElementById("email").value,
+    //         Subject : "New Contact Form Enquiry",
+    //         Body : "Name: " +document.getElementById("name").value
+    //          + "<br> Email: " + document.getElementById("email").value
+    //          + "<br> Message: " + document.getElementById("msg").value
+            
+    //     }).then(
+    //         message => alert("Message Sent Successfully")
+    //     );
+
+    // }
+</script>
+
+
+</body>
+</html>
